@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kbespalyi/js-algorithms.git"
+    "url": "https://github.com/kbespalyi/JSCodeTester.git"
   },
   "scripts": {
     "start": "make start",
-    "test": "NODE_ENV=test mocha -R spec test/tests/**/*.js test/tests/**/**/*.js test/tests/**/**/**/*.js ",
+    "test": "NODE_ENV=test mocha --timeout 40000 -R spec test/tests/**/*.js test/tests/**/**/*.js test/tests/**/**/**/*.js",
     "testloop": "sh run-test-checker.sh",
     "format": "standard --fix 'src/**/*.js'"
   },
