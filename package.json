@@ -53,7 +53,7 @@
     "global": "^4.4.0",
     "graceful-fs": "^4.2.4",
     "lodash": "^4.17.15",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.31",
     "querystring": "^0.2.0",
     "request": "^2.88.2",
